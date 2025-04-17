@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+motor
+pydantic
+python-dotenv
+jinja2                      # if you're rendering HTML templates (for email or admin dashboard)
+email-validator             # for email input validation
+python-multipart            # if you're accepting file uploads
+httpx                       # for making async HTTP requests
